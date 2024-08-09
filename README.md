@@ -56,19 +56,17 @@
   
   |목차 & 기획 의도|
   |---|
-  |![image](https://github.com/user-attachments/assets/f191045d-976a-4fee-86a8-3e3975382fcd)
-|
+  |![image](https://github.com/user-attachments/assets/f191045d-976a-4fee-86a8-3e3975382fcd)|
   <br>
-  
+<div align='center'>
   |사용한 Tech & AI Model|
   |---|
   |`Yolo v10 Nano`, `matplotlib`, `OpenCV`|
   <br>
-  
+<div align='center'>
   |Gantt Chart & Flow Chart|
   |---|
-  |![image](https://github.com/user-attachments/assets/3a4c8ebc-34c0-49cc-ae1a-08c110346ed4)
-|
+  |![image](https://github.com/user-attachments/assets/3a4c8ebc-34c0-49cc-ae1a-08c110346ed4)|
   |![image](https://github.com/KimDong-gue/Healthy-Mento/assets/116249934/449f5882-8d72-43cd-8855-6cf162d26e3c)|
 
   <br>
@@ -79,9 +77,8 @@
   |시행 착오 / 개선 사항|
   |---|
   |<div align='center'>시행 착오</div>|
-  |![image](https://github.com/user-attachments/assets/b2edb52f-4228-4e2c-a1a4-6a70efa5416c)
-|
-  |- `Yolo v10 Nano` 모델링시, 동시에 검출된 객체가 ID값이 동일시되고, Tracking기능이 꼬이는 상황 발생
+  |![image](https://github.com/user-attachments/assets/b2edb52f-4228-4e2c-a1a4-6a70efa5416c)|
+  |- `Yolo v10 Nano` 모델링시, 동시에 검출된 객체가 ID값이 동일시되고, Tracking기능이 꼬이는 상황 발생|
 | - time_diff(시간)이 0이 되어 ZeroDivisionError발생하는 것을 확인하고, 객체의 초기 감지시, 시간 값 저장을 보장하여 오류를 해결|
  |![image](https://github.com/user-attachments/assets/d3df2da6-2216-4ac9-bcb0-643e2cce4019) |
 | 야간 시간대 조회 문제로 자정을 넘어가는 시간을 체크하는데 데이터를 가져오지 못하는 문제 발생 |
