@@ -39,16 +39,15 @@
 ### 프로젝트 개발 방식
   - #### `Front-End`
 
-    `Figma`를 활용하여 UI/UX 설계
+    `Django Framework`를 활용하여 UI/UX 설계
     <br>
   - #### `Back-End`
 
-    `FastAPI`를 통한 서버 통신, `MySQL`로 데이터베이스 설계.
+    `RESTful API`를 통한 서버 통신, `MySQL`로 데이터베이스 설계.
     <br>
   - #### `AI Model`
 
-    `Python`의 `MediaPipe`와`Motion Transfer` 메인으로 사용자에게 운동에 대해 가이드를 제시하고,
-    `Yolo v8`을 이용하여, 음식을 분류하여, 칼로리와 가지고 있는 음식을 기반으로 `Chat GPT`로 하루 식단을 가이드
+    `Yolo v10n`을 이용하여, 사람과 자동차 객체 ID, 정확도, 속도 및 Tracking 기능 이용하여 탐지지
     
     <br>
 
@@ -57,12 +56,13 @@
   
   |목차 & 기획 의도|
   |---|
-  |![image](https://github.com/KimDong-gue/Second_Team_Project/assets/116249934/0a5f30ca-b9bf-484c-90fd-d438b6b5f842)|
+  |![image](https://github.com/user-attachments/assets/f191045d-976a-4fee-86a8-3e3975382fcd)
+|
   <br>
   
   |사용한 Tech & AI Model|
   |---|
-  |`Media Pipe`, `Motion Transfer`, `Yolo v8 Small`, `Chat GPT`|
+  |`Yolo v10 Nano`, `matplotlib`, `OpenCV`|
   <br>
   
   |Gantt Chart & Flow Chart|
@@ -79,23 +79,17 @@
   |시행 착오 / 개선 사항|
   |---|
   |<div align='center'>시행 착오</div>|
-  |![image](https://github.com/KimDong-gue/Healthy-Mento/assets/116249934/8abcb693-79d5-466c-b2c4-b9c6624c5c8a)|
-  |- `Yolo v8 Small` 모델링시, `Data InBalance` 문제 때문에, 데이터 증강을 수행 후, 어느정도의 `InBalance`를 해결하였습니다.
-| - `MediaPipe`로 운동 자세를 검출할 때, 초기에 발생한 다양한 어려움들을 극복하기 위해 끊임없는 실험과 수정 작업이 필요했습니다. 이러한 경험을 통해 데이터 다양성, 후처리 기술의 활용, 적절한 임계값 설정, 모델의 업데이트에 대한 중요성을 깨달았습니다. 이러한 과정을 통해 프로젝트를 성공적으로 완료할 수 있었습니다. 
-| - `Motion Transfer` 모델링시, 초기에 프로토타입을 빠르게 구현하고 사용자에게 시각적으로 효과를 보여주는 것이 목표였습니다. 그 후, 데모버젼을 구현하는데 성공하였습니다. 
+  |![image](https://github.com/user-attachments/assets/b2edb52f-4228-4e2c-a1a4-6a70efa5416c)
+|
+  |- `Yolo v10 Nano` 모델링시, 동시에 검출된 객체가 ID값이 동일시되고, Tracking기능이 꼬이는 상황 발생
+| - time_diff(시간)이 0이 되어 ZeroDivisionError발생하는 것을 확인하고, 객체의 초기 감지시, 시간 값 저장을 보장하여 오류를 해결|
+ |![image](https://github.com/user-attachments/assets/d3df2da6-2216-4ac9-bcb0-643e2cce4019) |
+| 야간 시간대 조회 문제로 자정을 넘어가는 시간을 체크하는데 데이터를 가져오지 못하는 문제 발생 |
+| start_time과 end_time을 특정 시간대를 설정하여 필터링하여 해결하였다. |
+
 
   <br>
   
-  |<div align='center'>참고 문헌</div>|
-  |---|
-  |https://github.com/Daniil-Osokin/lightweight-human-pose-estimation.pytorch|
-  ||
-  |https://github.com/AliaksandrSiarohin/first-order-model|
-  ||
-  |https://github.com/svip-lab/impersonator|
-  ||
-  |https://github.com/Wangt-CN/DisCo?tab=readme-ov-file|
-  <br>
   
 </div>
 
