@@ -59,13 +59,12 @@
   |![image](https://github.com/user-attachments/assets/f191045d-976a-4fee-86a8-3e3975382fcd)|
   <br>
   
-<div align='center'>
+
   |사용한 Tech & AI Model|
   |---|
   |`Yolo v10 Nano`, `matplotlib`, `OpenCV`|
   <br>
  
-<div align='center'>
   |Gantt Chart & Flow Chart|
   |---|
   |![image](https://github.com/user-attachments/assets/3a4c8ebc-34c0-49cc-ae1a-08c110346ed4)|
