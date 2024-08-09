@@ -47,7 +47,7 @@
     <br>
   - #### `AI Model`
 
-    `Yolo v10n`을 이용하여, 사람과 자동차 객체 ID, 정확도, 속도 및 Tracking 기능 이용하여 탐지지
+    `Yolo v10n`을 이용하여, 사람과 자동차 객체 ID, 정확도, 속도 및 Tracking 기능 이용하여 AI Modeling
     
     <br>
 
