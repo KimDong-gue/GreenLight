@@ -65,10 +65,10 @@
   |`Yolo v10 Nano`, `matplotlib`, `OpenCV`|
   <br>
  
-  |Gantt Chart & Flow Chart|
+  |Gantt Chart|
   |---|
   |![image](https://github.com/user-attachments/assets/3a4c8ebc-34c0-49cc-ae1a-08c110346ed4)|
-  |![image](https://github.com/KimDong-gue/Healthy-Mento/assets/116249934/449f5882-8d72-43cd-8855-6cf162d26e3c)|
+  
 
   <br>
   
