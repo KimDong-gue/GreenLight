@@ -31,7 +31,7 @@
       <img src="https://img.shields.io/badge/Visual Studio Code-007ACC?style=flat-square&logo=Visual Studio Code&logoColor=white">&nbsp;
       <img src="https://img.shields.io/badge/Mysql Workbench-4479A1?style=flat-square&logo=Mysql&logoColor=white">&nbsp;
 
-     <img src="https://img.shields.io/badge/Django-F05032?style=flat-square&logo=Django&logoColor=green">&nbsp;
+     <img src="https://img.shields.io/badge/Django-0A3711?style=flat-square&logo=Django&logoColor=green">&nbsp;
     
 <br><br>
 
